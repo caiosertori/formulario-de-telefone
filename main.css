@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-size: cover; /* Isso faz com que a imagem cubra todo o fundo */
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #F8F8FF;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50px;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+input, button {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 24px;
+    width: 450px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 24px;
+    width: 150px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+}
